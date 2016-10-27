@@ -1,0 +1,42 @@
+<!doctype>
+<html>
+  <link rel="stylesheet" href="boot.css">
+
+  <head>
+    <meta charset="utf-8">
+    <title>2018 Prof Pic</title>
+    <link rel="icon" type="image/png" href="http://iconshow.me/media/images/ui/ios7-icons/png/512/chatbubble-working.png">
+  </head>
+  <body>
+    <div class = "container">
+      <div class = "row">
+        <div class="jumbotron">
+          <div class="centered">
+            <h1>2018 Class Profile Picture</h1>
+            <p style = "text-align: center">Edit a picture of your choice to show your class spirit!</p>
+            <p><a href = "#second" class="btn btn-primary btn-lg" id = "first">Start</a></p>
+            <br>
+          </div>
+        </div>
+        <div id = "second" class="jumbotron">
+          <div class="centered">
+            <h1>Step 1: Upload Picture</h1>
+            <p style = "text-align: center">Select File From Computer:</p>
+            <label for="imageLoader" class="btn"><i class="fa fa-photo fa-fw"></i>
+            <input type="file" id="imageLoader" name="imageLoader"></label>
+            <p><a href = "#third" class="btn btn-primary btn-lg">Next</a></p>
+          </div>
+        </div>
+        <div id = "third" class="jumbotron">
+          <div class="centered">
+            <h1>Step 3: Edit</h1>
+            <canvas id="canvas" width="700" height="700"></canvas>
+            <p><a href = "#second" class="btn btn-primary btn-lg" id = "first">Next</a></p>
+            <br>
+          </div>
+        </div> 
+      </div>   
+    </div>
+  </body>
+  <script src="profpic.js"></script>
+</html>
