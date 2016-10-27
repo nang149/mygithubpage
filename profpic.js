@@ -25,7 +25,7 @@ bg.setAttribute('crossOrigin', 'anonymous');
 bg.src = 'default.png';
 var overlay = new Image();
 overlay.setAttribute('crossOrigin', 'anonymous');
-overlay.src = 'juniors.png';    
+overlay.src = 'overlay.png';    
 overlay.onload = init;
 
 function init() {
