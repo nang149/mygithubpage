@@ -46,13 +46,27 @@
             </div>
           </div>
           
-            <div class="centered">
-              <h1>Step 3: Edit</h1>
+          <div class="centered">
+            <h1>Step 3: Edit</h1>
+            <div class="col-md-8">
               <canvas id="canvas" width="700" height="700"></canvas>
-              <p><a href = "#second" class="btn btn-primary btn-lg" id = "first">Next</a></p>
-              <br>
             </div>
-          
+            <div class="col-md-4">
+              <h3><i class="fa fa-edit fa-fw"></i> Edit</h3>
+              Drag image to reposition.<br>
+              Size: 
+              <i class="fa fa-minus fa-fw"></i>
+              <input type="range" id="scale" min="0.2" max="2.0" step="0.005">
+              <i class="fa fa-plus fa-fw"></i>
+              <br>
+              Rotation:
+              <button class="btn edit" id="rot-l"><i class="fa fa-rotate-left fa-fw"></i></button>
+              <button class="btn edit" id="rot-r"><i class="fa fa-rotate-right fa-fw"></i></button>
+            </div>
+            <p><a href = "#second" class="btn btn-primary btn-lg" id = "first">Next</a></p>
+            <br>
+          </div>
+
         </div>   
       </div>
     </div>
