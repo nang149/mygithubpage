@@ -7017,3 +7017,6 @@ a.list-group-item-danger.active:focus {
 canvas {
 	cursor: move;
 }
+input[type="file"] {
+	display: none;
+}
