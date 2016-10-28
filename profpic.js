@@ -2,7 +2,7 @@ var SIDE_LENGTH = 550;
 
 var canvasNode = document.getElementById('canvas');
 canvasNode.width = SIDE_LENGTH;
-canvasNode.height = SIDE_LENGTH * 1.5;
+canvasNode.height = SIDE_LENGTH;
 canvasNode.style.border = "3px solid black";
 canvasNode.addEventListener('mousedown', startDrag);
 canvasNode.addEventListener('mousemove', dragImage);
