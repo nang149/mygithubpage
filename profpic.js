@@ -74,7 +74,7 @@ function init() {
 
 function download() {
     downloadBtn.href = canvasPic.node.toDataURL('image/png');
-    downloadBtn.download = 'profile.png';
+    downloadBtn.download = '2018profile.png';
 }
 function dataURItoBlob(dataURI) {
     var byteString = atob(dataURI.split(',')[1]);
