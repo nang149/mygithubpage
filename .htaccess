@@ -1,3 +1,2 @@
-RewriteEngine On
-RewriteCond %{SCRIPT_FILENAME} !-d
-RewriteRule ^([^.]+)$ $1.pdf [NC,L]
+RewriteCond %{THE_REQUEST} \s/+(.+?)\.pdf[\s?] [NC]
+RewriteRule ^ /%1 [R=302,L,NE]
