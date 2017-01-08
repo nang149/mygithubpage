@@ -1,4 +1,3 @@
-RewriteEngine on
-RewriteCond %{REQUEST_FILENAME} !-d
-RewriteCond %{REQUEST_FILENAME}\.pdf -f
-RewriteRule ^(.*)$ $1.pdf
+RewriteEngine On
+RewriteCond %{SCRIPT_FILENAME} !-d
+RewriteRule ^([^.]+)$ $1.pdf [NC,L]
