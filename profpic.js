@@ -23,7 +23,7 @@ bg.setAttribute('crossOrigin', 'anonymous');
 bg.src = 'default.png';
 var overlay = new Image();
 overlay.setAttribute('crossOrigin', 'anonymous');
-overlay.src = 'overlay.png';    
+overlay.src = 'jnrs.png';    
 overlay.onload = init;
 
 function init() {
