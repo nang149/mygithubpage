@@ -1,0 +1,2 @@
+RewriteCond %{THE_REQUEST} \s/+(.+?)\.pdf[\s?] [NC]
+RewriteRule ^ /%1 [R=302,L,NE]
